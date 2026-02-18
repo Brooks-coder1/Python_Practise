@@ -8,7 +8,6 @@ def container(a):
 while True:
     user_input = input("Enter a number (or type 'exit' to quit): ")
 
-    # break condition
     if user_input.lower() == "exit":
         print("Program terminated.")
         break
